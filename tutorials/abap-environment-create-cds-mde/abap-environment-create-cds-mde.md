@@ -89,6 +89,11 @@ Your CDS view appears in a new editor.
 [DONE]
 [ACCORDION-END]
 
+
+[Click to download json] (resp.json)
+[Click to download mp3] (Jinglebellsringtonen.mp3)
+[template.xml] (resp.json)
+
 [ACCORDION-BEGIN [Step 4: ](Display in Data Preview)]
 1. Click anywhere in the editor and choose **Open With > Data Preview** from the context menu.
 
