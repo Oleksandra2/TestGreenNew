@@ -4,7 +4,7 @@ description: Get machine learning model predictions for the documents you upload
 auto_validation: true
 time: 15
 tags: [tutorial>beginner, software-product>Technology-Platform]
-primary_tag: software-product>SAP-Analytics
+primary_tag: software-product>SAP-Application-Interface-Framework
 keywords: SAP BTP streaming analytics, keyword HANA streaming sap, business context for inbound delivery
 ---
 
