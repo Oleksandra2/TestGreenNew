@@ -5,7 +5,7 @@ auto_validation: true
 time: 15
 tags: [tutorial>beginner, software-product>Technology-Platform]
 primary_tag: software-product>SAP-Analytics
-keywords: SAP BTP streaming analytics, keyword HANA streaming sap
+keywords: SAP BTP streaming analytics, keyword HANA streaming sap, business context for inbound delivery
 ---
 
 ## Details
