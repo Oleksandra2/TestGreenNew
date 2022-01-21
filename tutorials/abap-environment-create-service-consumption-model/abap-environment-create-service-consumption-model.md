@@ -7,7 +7,7 @@ tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-prod
 primary_tag: topic>abap-connectivity
 author_name: Julie Plummer
 author_profile: https://github.com/julieplummer20
-keywords: Tools to Manage and Access, SAP BTP Trial, SAP HANA streaming analytics
+keywords: Tools to Manage and Access, SAP BTP Trial, SAP HANA streaming analytics, keyword sap
 ---
 
 ## Prerequisites  
