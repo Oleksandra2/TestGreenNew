@@ -5,7 +5,7 @@ auto_validation: true
 time: 45
 tags: [ tutorial>beginner, topic>abap-development, software-product>SAP-Application-Interface-Framework]
 primary_tag: software-product>analytic-applications
-keywords: SAP streaming analytics hana, keyword streaming sap
+keywords: SAP streaming analytics hana, keyword streaming sap, SAP HANA streaming analytics
 ---
 
 ## Prerequisites
