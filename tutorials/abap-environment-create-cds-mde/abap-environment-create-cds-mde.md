@@ -2,7 +2,7 @@
 title: Test Create an ABAP Core Data Services (CDS) View in SAP Cloud Platform, ABAP Environment
 description: Create a CDS View, display it in Fiori Elements preview, and enhance its appearances using built-in annotations
 auto_validation: true
-time: 20
+time: 85
 tags: [ tutorial>beginner, topic>abap-development, software-product>SAP-Application-Interface-Framework,software-product>SAP-gateway]
 primary_tag: software-product>analytic-applications
 keywords: SAP streaming analytics hana, keyword streaming sap, SAP HANA streaming analytics
