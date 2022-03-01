@@ -2,7 +2,7 @@
 title: Test Use Machine Learning to Extract Information from Documents with Swagger UI
 description: Get machine learning model predictions for the documents you upload to Document Information Extraction.
 auto_validation: true
-time: 15
+time: 130
 tags: [tutorial>beginner, software-product>Technology-Platform]
 primary_tag: software-product>SAP-Application-Interface-Framework
 keywords: SAP BTP streaming analytics, keyword HANA streaming sap, business context for inbound delivery
