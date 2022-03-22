@@ -5,6 +5,7 @@ auto_validation: true
 time: 130
 tags: [tutorial>beginner, software-product>Technology-Platform]
 primary_tag: software-product>SAP-Application-Interface-Framework
+creator_name: Test Test
 keywords: SAP BTP streaming analytics, keyword HANA streaming sap, business context for inbound delivery
 ---
 
