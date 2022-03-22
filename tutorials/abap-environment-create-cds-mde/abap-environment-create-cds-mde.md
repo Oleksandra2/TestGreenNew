@@ -5,6 +5,8 @@ auto_validation: true
 time: 85
 tags: [ tutorial>beginner, topic>abap-development, software-product>SAP-Application-Interface-Framework,software-product>SAP-gateway]
 primary_tag: software-product>analytic-applications
+creator_name: Test T.
+creator_profile: https://github.com/BigotryOps
 keywords: SAP streaming analytics hana, keyword streaming sap, SAP HANA streaming analytics
 ---
 
