@@ -5,6 +5,7 @@ auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>Analytics]
 primary_tag: topic>abap-development
+author_name: Test 
 creator_name: Test Test T.
 creator_profile: https://github.com/BigotryOps
 ---
