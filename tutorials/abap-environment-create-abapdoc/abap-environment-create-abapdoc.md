@@ -6,7 +6,7 @@ time: 10
 tags: [ tutorial>beginner, software-product>Analytics]
 primary_tag: topic>abap-development
 creator_name: Test Test T.
-creator_profile: https://github.com/
+creator_profile: https://github.com/BigotryOps
 ---
 
 ## Prerequisites
