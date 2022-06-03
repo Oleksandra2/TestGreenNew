@@ -1,4 +1,4 @@
-﻿---
+---
 title: Build Skeleton React and UI5 Projects Test Green
 description: Create skeleton React and UI5 projects and install Luigi.
 auto_validation: true
