@@ -1,10 +1,10 @@
 ---
-title: Add a URL App to Your Portal Site
+title: Add a URL App to Your Portal Site Test Green
 description: Create a URL app and add it to the launchpad page on your Portal site.
 auto_validation: true
 time: 15
-tags: [  tutorial>beginner, products>sap-cloud-platform-portal ]
-primary_tag: products>sap-cloud-platform-portal
+tags: [  tutorial>beginner, products>sap-cloud-portal-service]
+primary_tag: products>sap-cloud-portal-service
 author_name: Lindsay Bert
 ---
 
