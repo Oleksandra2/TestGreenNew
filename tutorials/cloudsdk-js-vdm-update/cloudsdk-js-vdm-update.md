@@ -174,9 +174,4 @@ BusinessPartner.requestBuilder()
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Appendix: ](Test yourself)]
-
-[VALIDATE_1]
-
-[ACCORDION-END]
 ---
