@@ -97,10 +97,5 @@ And that's it. You can now group development objects that belong together in one
 
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 4: ](Test yourself)]
-
-[VALIDATE_1]
-
-[ACCORDION-END]
 
 ---
