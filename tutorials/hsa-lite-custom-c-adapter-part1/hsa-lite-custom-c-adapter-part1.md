@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction to Custom C/C++ Adapters for Freezer Monitoring Lite Test Green
 description: Gain an overview of Custom C Adapters that work with either HANA Streaming Analytics or Streaming Lite.
 auto_validation: true
