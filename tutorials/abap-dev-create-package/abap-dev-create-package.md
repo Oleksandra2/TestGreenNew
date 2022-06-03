@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an ABAP Package Test Green
 description: Create an ABAP package, which will enable you to structure your development objects.
 auto_validation: true
