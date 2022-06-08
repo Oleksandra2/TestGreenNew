@@ -1,9 +1,9 @@
 ---
-title: Create a Data Element Test Green
+
 description: Create a data element, which you will use in a later tutorial.
 auto_validation: true
 primary_tag: programming-tool>abap-development
-tags: [  tutorial>beginner, software-product>sap-netweaver ]
+tags: [  tutorial>beginner, software-product>sap-netw]
 time: 5
 ---
 
@@ -16,7 +16,7 @@ time: 5
 - How to create a data element.
 - How to use this data element to provide Boolean logic to one of the columns in the table
 
-
+Create a Data Element Test Green
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Change field type to new data element)]
