@@ -71,8 +71,6 @@ time: 15
 
     ![rename second expression](12-renamesecondexp.png)
 
-[VALIDATE_1]
-
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [Step 3: ](Add a Filter)]  
