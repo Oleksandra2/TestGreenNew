@@ -339,5 +339,4 @@ Start your daemon using the following line of code. Note that the daemon name is
 zcl_tutorial_simple_daemon=>start( iv_daemon_name = 'does_the_daemon_start_up_if_you_use_this_as_your_daemon_name' iv_timeout = -10000 ).
 ```
 
-[VALIDATE_1]
 [ACCORDION-END]
