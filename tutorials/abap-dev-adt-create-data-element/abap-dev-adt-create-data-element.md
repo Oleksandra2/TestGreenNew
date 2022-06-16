@@ -23,7 +23,6 @@ Create a Data Element Test Green
 Go back to your ABAP Dictionary structure `zso_invoice_item` and change the type of field `payment_status` to **`zso_invoice_payment_status`**:
 
 ![Image depicting step24-change-field-type](step24-change-field-type.png)
-
 Since the data element `zso_invoice_payment_status` does not exist, you get a syntax error, which you will fix using a quick fix below.
 
 [DONE]
