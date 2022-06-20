@@ -81,35 +81,5 @@ With the **anonymization methods** in SAP HANA Cloud, SAP HANA database you can 
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 4: ](Importance of anonymized views)]
-
-
-Data needs to be shared inside (and outside) an organization to be useful. The people monitoring and managing data receive frequent requests from data consumers for access to subsets of data. So, the process of preparing data to securely share it with others must be practical and time-efficient while keeping the integrity of the original data and delivering accurate results.
-
-To meet these requirements, SAP HANA Cloud, SAP HANA database uses **anonymized views**, which can be easily created, shared, and monitored. They are calculated on-the-fly on top of the original data, so the source data stays untouched. You will learn more about them in this tutorial group.
-
-> **Well done!**
->
-> You have completed the first tutorial of this group! Now you know the basics about why data anonymization is important when handling personal and sensitive data and have an overview about the goals and methods of data anonymization.
->
-> Learn in the next tutorial how anonymized views are being created and get to know the two key anonymization methods.
-
-
-
-### Related topics
-
-[SAP HANA Security Guide](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.04/en-US)
-
-
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 5: ](Test yourself)]
-
-
-
-[VALIDATE_7]
-[ACCORDION-END]
 
 ---
