@@ -3,7 +3,7 @@ title: Create an ABAP Package Test Green
 description: Create an ABAP package, which will enable you to structure your development objects.
 auto_validation: true
 primary_tag: programming-tool>abap-development
-tags: [  tutorial>beginner, software-product>sap-netweaver ]
+tags: [  tutorial>beginner, software-product>sap-netweaver, software-product>sap-document-presentment-by-opentext--cloud-edition ]
 time: 10
 ---
 ##Prerequisites
