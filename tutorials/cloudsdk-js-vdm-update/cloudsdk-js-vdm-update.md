@@ -32,7 +32,7 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 1. As in the [previous tutorial](cloudsdk-js-vdm-create), we have to create a controller to expose the endpoint for updating an address. Note: If you have already controller and service classes from the previous tutorial you can of course keep the existing files and just extend the classes by the new methods. Create a `business-partner.controller.ts` and add the following implementation:
 
-```JavaScript / TypeScript
+   ```JavaScript / TypeScript
    import { Controller, Body, Param, Put } from '@nestjs/common';
 
    @Controller('business-partners')
@@ -50,7 +50,7 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 2. Create a file called `business-patner.service.ts` in the `src` folder of your application. Then, copy the following code into it:
 
-```JavaScript / TypeScript
+   ```JavaScript / TypeScript
 import { Injectable } from '@nestjs/common';
 import { BusinessPartnerAddress } from '@sap/cloud-sdk-vdm-business-partner-service';
 
@@ -71,7 +71,7 @@ export class BusinessPartnerService {
 
 3. This follows the implementation in the previous tutorials. `updateBusinessPartnerAddress()` does not do anything useful yet, but you will implement it in the next step. Finally, register the `controller` and `service` in the root application module `app.module.ts`:
 
-```JavaScript / TypeScript
+   ```JavaScript / TypeScript
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -86,7 +86,7 @@ import { BusinessPartnerService } from './business-partner.service';
 export class AppModule {}
 ```
 4. Note, that we used the `PUT` method to update a business-partner address. So we need to send a `PUT` request. Restart your server and send a `PUT` request to `http://localhost:3000/business-partners/1/address/2` with some body (e. g. `{"key": "Some test body."}`). The server should response with:
-```
+   ```
 This is your request data:
 businessPartnerId: 1
 addressId: 2
