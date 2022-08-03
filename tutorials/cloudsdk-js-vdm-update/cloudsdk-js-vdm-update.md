@@ -63,7 +63,7 @@ request body: {"key":"Some test body."}
 
 [ACCORDION-BEGIN [Step 2: ](Update a business partner address)]
 
-Next, we use the VDM to update an existing business partner address. Open `business-partner.controller.ts` and implement the `updateBusinessPartnerAddress()` function as shown below:
+1. Next, we use the VDM to update an existing business partner address. Open `business-partner.controller.ts` and implement the `updateBusinessPartnerAddress()` function as shown below:
 
 ```JavaScript / TypeScript
 function updateBusinessPartnerAddress(address: BusinessPartnerAddress): Promise<BusinessPartnerAddress> {
@@ -75,7 +75,7 @@ function updateBusinessPartnerAddress(address: BusinessPartnerAddress): Promise<
 }
 ```
 
-The `update` function takes as parameter the entity that should be updated. When creating a new entity, the service will automatically generate things like key fields, the creation date, etc. and return it. The VDM makes this available to you by returning a `Promise<BusinessPartnerAddress>`. As a final step we need to adjust the `updateBusinessPartnerAddress()` in the controller to trigger an update:
+2. The `update` function takes as parameter the entity that should be updated. When creating a new entity, the service will automatically generate things like key fields, the creation date, etc. and return it. The VDM makes this available to you by returning a `Promise<BusinessPartnerAddress>`. As a final step we need to adjust the `updateBusinessPartnerAddress()` in the controller to trigger an update:
 
 ```JavaScript / TypeScript
 import { Controller, Body, Param, Put } from '@nestjs/common';
@@ -98,7 +98,7 @@ export class BusinessPartnerController {
 }
 ```
 
-Restart your server and send a `PUT` request to `http://localhost:3000/business-partners/1003764/address/28238` with the following body (or replace the IDs with the ones you used in the previous tutorial):
+3. Restart your server and send a `PUT` request to `http://localhost:3000/business-partners/1003764/address/28238` with the following body (or replace the IDs with the ones you used in the previous tutorial):
 
 ```JSON
 {
@@ -108,7 +108,7 @@ Restart your server and send a `PUT` request to `http://localhost:3000/business-
 }
 ```
 
-This will update the business partner address and set its `CityName` to `"Berlin"`.
+4. This will update the business partner address and set its `CityName` to `"Berlin"`.
 
 [DONE]
 [ACCORDION-END]
