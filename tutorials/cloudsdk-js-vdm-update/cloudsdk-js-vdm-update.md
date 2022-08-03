@@ -32,7 +32,7 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 1. As in the [previous tutorial](cloudsdk-js-vdm-create), we have to create a controller to expose the endpoint for updating an address. Note: If you have already controller and service classes from the previous tutorial you can of course keep the existing files and just extend the classes by the new methods. Create a `business-partner.controller.ts` and add the following implementation:
 
-   ```JavaScript / TypeScript
+```JavaScript / TypeScript
    import { Controller, Body, Param, Put } from '@nestjs/common';
 
    @Controller('business-partners')
@@ -46,7 +46,7 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
        request body: ${JSON.stringify(requestBody)}`
      }
    }
-   ```
+```
 
 2. Create a file called `business-patner.service.ts` in the `src` folder of your application. Then, copy the following code into it:
 
