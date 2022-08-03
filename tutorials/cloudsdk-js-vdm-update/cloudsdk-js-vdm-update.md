@@ -32,20 +32,20 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 1. This follows the implementation in the previous tutorials. `updateBusinessPartnerAddress()` does not do anything useful yet, but you will implement it in the next step. Finally, register the `controller` and `service` in the root application module `app.module.ts`:
 
-   ```JavaScript / TypeScript
-   import { Module } from '@nestjs/common';
-   import { AppController } from './app.controller';
-   import { AppService } from './app.service';
-   import { BusinessPartnerController } from './business-partner.controller';
-   import { BusinessPartnerService } from './business-partner.service';
+	```JavaScript / TypeScript
+	import { Module } from '@nestjs/common';
+	import { AppController } from './app.controller';
+	import { AppService } from './app.service';
+	import { BusinessPartnerController } from './business-partner.controller';
+	import { BusinessPartnerService } from './business-partner.service';
 
-   @Module({
-     imports: [],
-     controllers: [AppController, BusinessPartnerController],
-     providers: [AppService, BusinessPartnerService]
-   })
-   export class AppModule {}
-   ```
+	@Module({
+	 imports: [],
+	 controllers: [AppController, BusinessPartnerController],
+	 providers: [AppService, BusinessPartnerService]
+	})
+	export class AppModule {}
+	```
 
 2. Note, that we used the `PUT` method to update a business-partner address. So we need to send a `PUT` request. Restart your server and send a `PUT` request to `http://localhost:3000/business-partners/1/address/2` with some body (e. g. `{"key": "Some test body."}`). The server should response with:
 
