@@ -50,24 +50,24 @@ export class BusinessPartnerController {
 
 2. Create a file called `business-patner.service.ts` in the `src` folder of your application. Then, copy the following code into it:
 
-```JavaScript / TypeScript
-import { Injectable } from '@nestjs/common';
-import { BusinessPartnerAddress } from '@sap/cloud-sdk-vdm-business-partner-service';
+   ```JavaScript / TypeScript
+   import { Injectable } from '@nestjs/common';
+   import { BusinessPartnerAddress } from '@sap/cloud-sdk-vdm-business-partner-service';
 
-@Injectable()
-export class BusinessPartnerService {
+   @Injectable()
+   export class BusinessPartnerService {
     updateBusinessPartnerAddress(address: BusinessPartnerAddress): Promise<BusinessPartnerAddress> {
         return;
     }
 
-  buildAddress(body: any, businessPartnerId: string, addressId: string): BusinessPartnerAddress {
+    buildAddress(body: any, businessPartnerId: string, addressId: string): BusinessPartnerAddress {
     const address = BusinessPartnerAddress.builder().fromJson(body);
     address.businessPartner = businessPartnerId;
     address.addressId = addressId;
     return address;
-  }
-}
-```
+    }
+   }
+   ```
 
 3. This follows the implementation in the previous tutorials. `updateBusinessPartnerAddress()` does not do anything useful yet, but you will implement it in the next step. Finally, register the `controller` and `service` in the root application module `app.module.ts`:
 
