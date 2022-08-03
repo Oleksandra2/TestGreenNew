@@ -1,5 +1,5 @@
 ---
-title: Update OData Entities with the SAP Cloud SDK's Virtual Data Model Test Green
+title: Update OData Entities with the SAP Cloud SDK's Virtual Data Model Test Green upd
 description: Update OData entities with the SAP Cloud SDK's virtual data model to build an address manager application.
 auto_validation: true
 time: 15
