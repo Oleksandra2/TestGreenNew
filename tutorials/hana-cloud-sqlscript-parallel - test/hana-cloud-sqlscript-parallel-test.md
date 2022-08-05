@@ -3,8 +3,8 @@ title: Parallel Processing and Parameters Test Green2 Test 2 Parallel Processing
 description: Leverage SQLScript in stored procedures, user defined functions, and user defined libraries.
 author_name: Rich Heilman
 author_profile: https://github.com/rich-heilman
-primary_tag: software-product>sap-cloud-application-programming-model
-tags: [  tutorial>intermediate, topic>sql, products>sap-hana, products>sap-hana-cloud, products>sap-business-application-studio]   
+primary_tag: software-product>sap-hana-cloud
+tags: [  tutorial>intermediate, topic>sql, products>sap-hana, products>sap-business-application-studio]   
 time: 15
 ---
 
