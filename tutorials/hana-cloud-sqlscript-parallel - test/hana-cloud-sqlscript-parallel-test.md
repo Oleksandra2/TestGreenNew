@@ -1,5 +1,5 @@
 ---
-title: Use Machine Learning and the Invoice Object Recommendation Business Blueprint to Predict Invoice Financial Objects
+title: Use Machine Learning and the Invoice Object Recommendation Business Blueprint to Predict Invoice Financial Objects long long long title
 description: Parallel Processing and Parameters Test Green2 Test 2 Parallel Processing and Parameters Test Green2 Test 2 long long long long title
 author_name: Rich Heilman
 author_profile: https://github.com/rich-heilman
