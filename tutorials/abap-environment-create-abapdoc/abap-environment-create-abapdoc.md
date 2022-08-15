@@ -84,11 +84,32 @@ The comments should now appear in the Outline View:
 
     ```
     "! <ol>
+    "!    <li> #### Reads flights from HANA DB</li>
+    "!    <li>Converts currency to EUR</li>
+    "! </ol>
+
+    ```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Step 4: ](Add sorted list)]
+1. Choose **Enter**. The system automatically inserts the ABAPDoc comments annotation `"!"` for you.
+
+2. Again, choose **Auto-complete ( `Ctrl+Space` )**. Then choose **Sorted list**.
+
+    !![step3a-add-sorted-list](step3a-add-sorted-list.png)
+
+3. Add the following two statements, so that your code looks like this:
+
+    ```
+    "! <ol>
     "!    <li>Reads flights from HANA DB</li>
     "!    <li>Converts currency to EUR</li>
     "! </ol>
 
     ```
+TEST TEST TEST 
 
 [DONE]
 [ACCORDION-END]
