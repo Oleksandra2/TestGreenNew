@@ -3,7 +3,7 @@ title: You have a valid instance of an on-premise AS ABAP server Test Green upd
 description: Create a data element, which you will use in a later tutorial.
 auto_validation: true
 primary_tag: programming-tool>abap-development
-tags: [  tutorial>beginner, software-product>sap-netweaver, software-product>analytics, software-product>sap-social-media-analytics-by-netbase, software-product>sap-sports-one--cloud-edition]
+tags: [  tutorial>beginner, software-product>sap-netweaver, software-product>analytics, software-product>sap-social-media-analytics-by-netbase, software-product>sap-sports-one--cloud-edition, software-product>sap-student-activity-hub--on-premise-edition]
 time: 5
 ---
 
