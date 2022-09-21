@@ -1,26 +1,29 @@
 ---
-title: Update OData Entities with the SAP Cloud SDK's Virtual Data Model Test Green upd
-description: Update OData entities with the SAP Cloud SDK's virtual data model to build an address manager application.
+parser: v2
 auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-business-technology-platform, topic>javascript, topic>odata]
 primary_tag: software-product>sap-s-4hana-cloud
 ---
 
+# Update OData Entities with the SAP Cloud SDK's Virtual Data Model Test Green upd
+<!-- description --> Update OData entities with the SAP Cloud SDK's virtual data model to build an address manager application.
+
 ## Prerequisites
  - Have `Node.js` and `npm` [installed on your machine](s4sdkjs-prerequisites)
  - Access to an SAP S/4HANA Cloud system or the [SAP API Business Hub Sandbox](https://api.sap.com/getting-started), or use the [Business Partner Mock Service](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html)
  - Basic knowledge of OData is recommended, but not required
 
-## Details
 
-> ### We migrate tutorials to our [documentation](https://sap.github.io/cloud-sdk/)
+
+## Intro
+> ## We migrate tutorials to our [documentation](https://sap.github.io/cloud-sdk/)
 > This tutorial is not actively maintained and might be partially outdated.
 > Always up-to-date documentation is published on our [documentation portal](https://sap.github.io/cloud-sdk/).
 > We will provide a link to the updated version of this tutorial as soon as we release it.
 > In this tutorial, version 1 of the SAP Cloud SDK for TypeScript/JavaScript is used.
 
-### You will learn
+## You will learn
   - How to use the Virtual Data Model to update an existing entity
   - How to trigger an update request from an API endpoint exposed by your application
 
@@ -28,7 +31,8 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 ---
 
-[ACCORDION-BEGIN [Step 1: ](Add an API endpoint)]
+### Add an API endpoint
+
 
 1. This follows the implementation in the previous tutorials. `updateBusinessPartnerAddress()` does not do anything useful yet, but you will implement it in the next step. Finally, register the `controller` and `service` in the root application module `app.module.ts`:
 
@@ -59,10 +63,9 @@ request body: {"key":"Some test body."}
 
 3. Test test
 
-[DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 2: ](Update a business partner address)]
+### Update a business partner address
+
 
 1. Next, we use the VDM to update an existing business partner address. Open `business-partner.controller.ts` and implement the `updateBusinessPartnerAddress()` function as shown below:
 
@@ -111,10 +114,9 @@ export class BusinessPartnerController {
 
 4. This will update the business partner address and set its `CityName` to `"Berlin"`.
 
-[DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 3: ](Optional: Concurrency and version identifiers)]
+### Optional: Concurrency and version identifiers
+
 
 In the example presented here, we don't do anything with the `BusinessPartnerAddress` returned by the update request. In a real-world application, it is recommend to store the entity somewhere. Whenever an entity is received from a service, the VDM will keep track of this state (we call it remote state). If you change the entity locally and then send an update request, the VDM will only send the difference between the current local state and the last known remote state.
 
@@ -137,7 +139,5 @@ BusinessPartner.requestBuilder()
   });
 ```
 
-[DONE]
-[ACCORDION-END]
 
 ---
