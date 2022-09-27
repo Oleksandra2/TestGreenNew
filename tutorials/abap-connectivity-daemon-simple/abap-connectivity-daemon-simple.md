@@ -3,6 +3,7 @@ parser: v2
 auto_validation: true
 primary_tag: topic>abap-development
 tags: [ tutorial>intermediate, topic>abap-development  ]
+time: 20
 ---
 
 # Create a Simple ABAP Daemon Test Green
