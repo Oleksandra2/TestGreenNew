@@ -4,8 +4,6 @@ auto_validation: true
 primary_tag: programming-tool>abap-development
 tags: [  tutorial>beginner, software-product>sap-netweaver ]
 time: 15
-author_name: Julie Plummer
-author_profile: https://github.com/julieplummer20
 ---
 
 # Create a New ABAP Dictionary Structure Test Green
