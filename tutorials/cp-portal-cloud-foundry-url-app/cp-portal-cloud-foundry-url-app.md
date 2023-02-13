@@ -4,7 +4,6 @@ auto_validation: true
 time: 15
 tags: [  tutorial>beginner, products>sap-cloud-portal-service]
 primary_tag: products>sap-cloud-portal-service
-author_name: Lindsay Bert
 ---
 
 
