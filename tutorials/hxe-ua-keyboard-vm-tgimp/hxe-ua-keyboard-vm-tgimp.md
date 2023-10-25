@@ -3,6 +3,7 @@ parser: v2
 primary_tag: programming-tool>abap-extensibility
 tags: [ tutorial>beginner, products>sap-hana\,-express-edition ]
 time: 5
+[ Dmytro Ivanov > https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ] 
 ---
 
 # Introduction to Set Keyboard and Time Zone tgimp
