@@ -7,7 +7,7 @@ primary_tag: products>sap-cloud-portal-service
 ---
 
 
-# Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification
+# Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service.
 <!-- description --> Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service. Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service.
 
 ## You will learn
