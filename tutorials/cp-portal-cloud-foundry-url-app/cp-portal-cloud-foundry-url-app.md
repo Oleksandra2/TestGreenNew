@@ -7,8 +7,8 @@ primary_tag: products>sap-cloud-portal-service
 ---
 
 
-# Add a URL App to Your Portal Site Test Green
-<!-- description --> Create a URL app and add it to the launchpad page on your Portal site.
+# Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification
+<!-- description --> Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service. Import a trained Core ML model and use the Vision framework to prepare a certain image for the classification, then use the classification result to fetch products of a certain product category from the sample data service.
 
 ## You will learn
   - How to create a URL app and add it to your site
