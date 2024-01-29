@@ -10,7 +10,7 @@ creator_profile: https://github.com/BigotryOps
 ---
 
 # Test Create ABAPDoc Comments in Your Class in ABAP Environment UPDATED
-<!-- description --> Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform, ABAP Environment so your comments appear in the Outline view.
+<!-- description --> Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform, ABAP Environment so your comments appear in the Outline test view.
 
 ## Prerequisites
 - You have an entitlement to SAP Cloud Platform, ABsdAP Enviroasnment. For more information, see **Tutorial**: [Create Your First ABAP Console Application](abap-environment-console-application), steps 1-2
